@@ -6,7 +6,7 @@
         "address": "Dhaka, Bangladesh",
         "joined_date": "2023-05-10",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/rabbi.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-002",
@@ -15,7 +15,7 @@
         "address": "Dhaka, Bangladesh",
         "joined_date": "2023-06-15",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/fatema.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-003",
@@ -24,7 +24,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-07-20",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/hasan.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-004",
@@ -33,7 +33,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-08-05",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/rashida.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-005",
@@ -42,7 +42,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-09-12",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/karim.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-006",
@@ -51,7 +51,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-10-18",
         "email": "acmou.18gmail.com",
-        "photo": "assets/images/members/salma.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-007",
@@ -60,7 +60,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-11-03",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/mizan.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-008",
@@ -69,7 +69,7 @@
         "address": "Bangladesh",
         "joined_date": "2023-12-08",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/nasreen.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-009",
@@ -78,7 +78,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-01-15",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/aminul.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-010",
@@ -87,7 +87,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-02-22",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/ruma.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-011",
@@ -96,7 +96,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-03-10",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/shariful.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-012",
@@ -105,7 +105,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-04-05",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/marium.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-013",
@@ -114,7 +114,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-05-18",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/rafiqul.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-014",
@@ -123,7 +123,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-06-12",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/shireen.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-015",
@@ -132,7 +132,7 @@
         "address": "Bangladesh",
         "joined_date": "2024-07-25",
         "email": "acmou.18@gmail.com",
-        "photo": "assets/images/members/habibur.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-016",
@@ -141,7 +141,7 @@
         "address": "Mymensingh, Bangladesh",
         "joined_date": "2024-08-14",
         "email": "taslima.khatun@gmail.com",
-        "photo": "assets/images/members/taslima.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-017",
@@ -150,7 +150,7 @@
         "address": "Dhaka, Bangladesh",
         "joined_date": "2024-09-07",
         "email": "kamal.uddin@gmail.com",
-        "photo": "assets/images/members/kamal.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-018",
@@ -159,7 +159,7 @@
         "address": "Chittagong, Bangladesh",
         "joined_date": "2024-10-20",
         "email": "rehana.parveen@gmail.com",
-        "photo": "assets/images/members/rehana.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-019",
@@ -168,7 +168,7 @@
         "address": "Sylhet, Bangladesh",
         "joined_date": "2024-11-11",
         "email": "shamim.ahmed@gmail.com",
-        "photo": "assets/images/members/shamim.jpg"
+        "photo": "assets/images/members/logo.jpg"
     },
     {
         "id": "ACMO-020",
@@ -177,7 +177,7 @@
         "address": "Rajshahi, Bangladesh",
         "joined_date": "2024-12-03",
         "email": "farida.yasmin@gmail.com",
-        "photo": "assets/images/members/farida.jpg"
+        "photo": "assets/images/members/logo.jpg"
     }
 
 ]
