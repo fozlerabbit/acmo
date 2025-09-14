@@ -1,0 +1,110 @@
+[
+    {
+        "id": "event-001",
+        "title": "বাল্যবিবাহ প্রতিরোধ সচেতনতা সভা",
+        "date": "2025-10-15",
+        "location": "ঢাকা",
+        "description": "স্থানীয় কমিউনিটির সাথে বাল্যবিবাহের ক্ষতিকর প্রভাব নিয়ে আলোচনা এবং সচেতনতা বৃদ্ধির কর্মসূচি।",
+        "image": "assets/images/events/awareness_meeting.jpg",
+        "status": "upcoming"
+    },
+    {
+        "id": "event-002",
+        "title": "স্কুল ভিত্তিক শিক্ষামূলক কর্মশালা",
+        "date": "2025-11-20",
+        "location": "চট্টগ্রাম",
+        "description": "মাধ্যমিক স্কুলের ছাত্রছাত্রীদের জন্য বাল্যবিবাহ প্রতিরোধ বিষয়ক শিক্ষামূলক কর্মশালা।",
+        "image": "assets/images/events/school_workshop.jpg",
+        "status": "upcoming"
+    },
+    {
+        "id": "event-003",
+        "title": "অভিভাবক কাউন্সেলিং সেশন",
+        "date": "2025-12-05",
+        "location": "সিলেট",
+        "description": "অভিভাবকদের সাথে সন্তানের ভবিষ্যৎ এবং শিক্ষার গুরুত্ব নিয়ে আলোচনা।",
+        "image": "assets/images/events/parent_counseling.jpg",
+        "status": "upcoming"
+    },
+    {
+        "id": "event-004",
+        "title": "তরুণ নেতৃত্ব প্রশিক্ষণ",
+        "date": "2026-01-10",
+        "location": "রাজশাহী",
+        "description": "স্থানীয় তরুণদের নেতৃত্ব বিকাশ এবং সামাজিক পরিবর্তনে অংশগ্রহণের জন্য প্রশিক্ষণ।",
+        "image": "assets/images/events/youth_leadership.jpg",
+        "status": "upcoming"
+    },
+    {
+        "id": "event-005",
+        "title": "কমিউনিটি অ্যাকশন প্রোগ্রাম",
+        "date": "2026-02-14",
+        "location": "খুলনা",
+        "description": "স্থানীয় প্রশাসন ও জনপ্রতিনিধিদের সাথে সমন্বিত কার্যক্রম পরিচালনা।",
+        "image": "assets/images/events/community_action.jpg",
+        "status": "upcoming"
+    },
+    {
+        "id": "event-006",
+        "title": "গবেষণা ও তথ্য উপস্থাপনা",
+        "date": "2025-08-15",
+        "location": "ঢাকা",
+        "description": "বাংলাদেশে বাল্যবিবাহের বর্তমান অবস্থা এবং ACMO-র কার্যক্রমের ফলাফল উপস্থাপনা।",
+        "image": "assets/images/events/research_presentation.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-007",
+        "title": "জাতীয় শিশু দিবস উদযাপন",
+        "date": "2025-03-17",
+        "location": "ঢাকা",
+        "description": "জাতীয় শিশু দিবস উপলক্ষে বিশেষ কর্মসূচি এবং শিশু অধিকার বিষয়ক আলোচনা।",
+        "image": "assets/images/events/childrens_day.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-008",
+        "title": "মহিলা দিবস বিশেষ অনুষ্ঠান",
+        "date": "2025-03-08",
+        "location": "চট্টগ্রাম",
+        "description": "আন্তর্জাতিক নারী দিবস উপলক্ষে নারী ক্ষমতায়ন ও বাল্যবিবাহ প্রতিরোধ বিষয়ক সেমিনার।",
+        "image": "assets/images/events/womens_day.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-009",
+        "title": "গ্রামীণ সচেতনতা ক্যাম্পেইন",
+        "date": "2025-01-25",
+        "location": "রংপুর",
+        "description": "গ্রামীণ এলাকায় বাল্যবিবাহ প্রতিরোধে ব্যাপক সচেতনতা ক্যাম্পেইন পরিচালনা।",
+        "image": "assets/images/events/rural_campaign.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-010",
+        "title": "স্বেচ্ছাসেবক নিয়োগ কর্মসূচি",
+        "date": "2024-12-20",
+        "location": "বরিশাল",
+        "description": "নতুন স্বেচ্ছাসেবক নিয়োগ এবং তাদের প্রশিক্ষণ প্রদান কর্মসূচি।",
+        "image": "assets/images/events/volunteer_recruitment.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-011",
+        "title": "আইনি সহায়তা শিবির",
+        "date": "2024-11-10",
+        "location": "ময়মনসিংহ",
+        "description": "বাল্যবিবাহের শিকার পরিবারগুলোর জন্য বিনামূল্যে আইনি পরামর্শ প্রদান।",
+        "image": "assets/images/events/legal_aid.jpg",
+        "status": "completed"
+    },
+    {
+        "id": "event-012",
+        "title": "দক্ষতা উন্নয়ন প্রশিক্ষণ",
+        "date": "2024-09-18",
+        "location": "সিলেট",
+        "description": "তরুণীদের জন্য দক্ষতা উন্নয়ন ও আত্মনির্ভরশীলতার প্রশিক্ষণ কর্মসূচি।",
+        "image": "assets/images/events/skill_development.jpg",
+        "status": "completed"
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "ACMO-001",
+        "name": "Fozle Rabbi",
+        "division": "Dhaka",
+        "address": "Dhaka, Bangladesh",
+        "joined_date": "2023-05-10",
+        "email": "infiniterabbiex@gmail.com",
+        "photo": "assets/images/members/rabbi.jpg"
+    },
+    {
+        "id": "ACMO-002",
+        "name": "Fatema Akter",
+        "division": "Chittagong",
+        "address": "Chittagong, Bangladesh",
+        "joined_date": "2023-06-15",
+        "email": "fatema.akter@gmail.com",
+        "photo": "assets/images/members/fatema.jpg"
+    },
+    {
+        "id": "ACMO-003",
+        "name": "Mohammad Hasan",
+        "division": "Sylhet",
+        "address": "Sylhet, Bangladesh",
+        "joined_date": "2023-07-20",
+        "email": "mohammad.hasan@gmail.com",
+        "photo": "assets/images/members/hasan.jpg"
+    },
+    {
+        "id": "ACMO-004",
+        "name": "Rashida Begum",
+        "division": "Rajshahi",
+        "address": "Rajshahi, Bangladesh",
+        "joined_date": "2023-08-05",
+        "email": "rashida.begum@gmail.com",
+        "photo": "assets/images/members/rashida.jpg"
+    },
+    {
+        "id": "ACMO-005",
+        "name": "Abdul Karim",
+        "division": "Khulna",
+        "address": "Khulna, Bangladesh",
+        "joined_date": "2023-09-12",
+        "email": "abdul.karim@gmail.com",
+        "photo": "assets/images/members/karim.jpg"
+    },
+    {
+        "id": "ACMO-006",
+        "name": "Salma Khatun",
+        "division": "Barishal",
+        "address": "Barishal, Bangladesh",
+        "joined_date": "2023-10-18",
+        "email": "salma.khatun@gmail.com",
+        "photo": "assets/images/members/salma.jpg"
+    },
+    {
+        "id": "ACMO-007",
+        "name": "Mizanur Rahman",
+        "division": "Rangpur",
+        "address": "Rangpur, Bangladesh",
+        "joined_date": "2023-11-03",
+        "email": "mizanur.rahman@gmail.com",
+        "photo": "assets/images/members/mizan.jpg"
+    },
+    {
+        "id": "ACMO-008",
+        "name": "Nasreen Sultana",
+        "division": "Mymensingh",
+        "address": "Mymensingh, Bangladesh",
+        "joined_date": "2023-12-08",
+        "email": "nasreen.sultana@gmail.com",
+        "photo": "assets/images/members/nasreen.jpg"
+    },
+    {
+        "id": "ACMO-009",
+        "name": "Aminul Islam",
+        "division": "Dhaka",
+        "address": "Dhaka, Bangladesh",
+        "joined_date": "2024-01-15",
+        "email": "aminul.islam@gmail.com",
+        "photo": "assets/images/members/aminul.jpg"
+    },
+    {
+        "id": "ACMO-010",
+        "name": "Ruma Akter",
+        "division": "Chittagong",
+        "address": "Chittagong, Bangladesh",
+        "joined_date": "2024-02-22",
+        "email": "ruma.akter@gmail.com",
+        "photo": "assets/images/members/ruma.jpg"
+    },
+    {
+        "id": "ACMO-011",
+        "name": "Shariful Hasan",
+        "division": "Sylhet",
+        "address": "Sylhet, Bangladesh",
+        "joined_date": "2024-03-10",
+        "email": "shariful.hasan@gmail.com",
+        "photo": "assets/images/members/shariful.jpg"
+    },
+    {
+        "id": "ACMO-012",
+        "name": "Marium Begum",
+        "division": "Rajshahi",
+        "address": "Rajshahi, Bangladesh",
+        "joined_date": "2024-04-05",
+        "email": "marium.begum@gmail.com",
+        "photo": "assets/images/members/marium.jpg"
+    },
+    {
+        "id": "ACMO-013",
+        "name": "Rafiqul Islam",
+        "division": "Khulna",
+        "address": "Khulna, Bangladesh",
+        "joined_date": "2024-05-18",
+        "email": "rafiqul.islam@gmail.com",
+        "photo": "assets/images/members/rafiqul.jpg"
+    },
+    {
+        "id": "ACMO-014",
+        "name": "Shireen Akter",
+        "division": "Barishal",
+        "address": "Barishal, Bangladesh",
+        "joined_date": "2024-06-12",
+        "email": "shireen.akter@gmail.com",
+        "photo": "assets/images/members/shireen.jpg"
+    },
+    {
+        "id": "ACMO-015",
+        "name": "Habibur Rahman",
+        "division": "Rangpur",
+        "address": "Rangpur, Bangladesh",
+        "joined_date": "2024-07-25",
+        "email": "habibur.rahman@gmail.com",
+        "photo": "assets/images/members/habibur.jpg"
+    },
+    {
+        "id": "ACMO-016",
+        "name": "Taslima Khatun",
+        "division": "Mymensingh",
+        "address": "Mymensingh, Bangladesh",
+        "joined_date": "2024-08-14",
+        "email": "taslima.khatun@gmail.com",
+        "photo": "assets/images/members/taslima.jpg"
+    },
+    {
+        "id": "ACMO-017",
+        "name": "Kamal Uddin",
+        "division": "Dhaka",
+        "address": "Dhaka, Bangladesh",
+        "joined_date": "2024-09-07",
+        "email": "kamal.uddin@gmail.com",
+        "photo": "assets/images/members/kamal.jpg"
+    },
+    {
+        "id": "ACMO-018",
+        "name": "Rehana Parveen",
+        "division": "Chittagong",
+        "address": "Chittagong, Bangladesh",
+        "joined_date": "2024-10-20",
+        "email": "rehana.parveen@gmail.com",
+        "photo": "assets/images/members/rehana.jpg"
+    },
+    {
+        "id": "ACMO-019",
+        "name": "Shamim Ahmed",
+        "division": "Sylhet",
+        "address": "Sylhet, Bangladesh",
+        "joined_date": "2024-11-11",
+        "email": "shamim.ahmed@gmail.com",
+        "photo": "assets/images/members/shamim.jpg"
+    },
+    {
+        "id": "ACMO-020",
+        "name": "Farida Yasmin",
+        "division": "Rajshahi",
+        "address": "Rajshahi, Bangladesh",
+        "joined_date": "2024-12-03",
+        "email": "farida.yasmin@gmail.com",
+        "photo": "assets/images/members/farida.jpg"
+    }
+]

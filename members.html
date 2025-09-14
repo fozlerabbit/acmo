@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members - ACMO</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/members.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="logo">
+                <span class="logo-text">ACMO</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="members.html" class="nav-link active">Members</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>আমাদের সদস্যরা</h1>
+                <p>ACMO-র প্রতিটি সদস্য বাল্যবিবাহ প্রতিরোধে নিবেদিতপ্রাণ যোদ্ধা</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section class="members-section">
+        <div class="container">
+            <!-- Search and Filter Controls -->
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="সদস্যের নাম খুঁজুন..." class="search-input">
+                    <button class="search-btn" onclick="filterMembers()">🔍</button>
+                </div>
+                
+                <div class="filters">
+                    <select id="divisionFilter" onchange="filterMembers()">
+                        <option value="">সকল বিভাগ</option>
+                        <option value="Dhaka">ঢাকা</option>
+                        <option value="Chittagong">চট্টগ্রাম</option>
+                        <option value="Sylhet">সিলেট</option>
+                        <option value="Rajshahi">রাজশাহী</option>
+                        <option value="Khulna">খুলনা</option>
+                        <option value="Barishal">বরিশাল</option>
+                        <option value="Rangpur">রংপুর</option>
+                        <option value="Mymensingh">ময়মনসিংহ</option>
+                    </select>
+                    
+                    <select id="yearFilter" onchange="filterMembers()">
+                        <option value="">সকল বছর</option>
+                        <option value="2024">২০২৪</option>
+                        <option value="2023">২০২৩</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Members Stats -->
+            <div class="members-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalMembers">0</span>
+                    <span class="stat-label">মোট সদস্য</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="visibleMembers">0</span>
+                    <span class="stat-label">প্রদর্শিত</span>
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>সদস্যদের তথ্য লোড হচ্ছে...</p>
+            </div>
+
+            <!-- Members Grid -->
+            <div class="members-grid" id="membersGrid">
+                <!-- Members will be populated dynamically -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be populated dynamically -->
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <h3>কোন সদস্য পাওয়া যায়নি</h3>
+                <p>অনুসন্ধানের মাপদণ্ড পরিবর্তন করে আবার চেষ্টা করুন।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ACMO Logo">
+                        <span>ACMO</span>
+                    </div>
+                    <p>সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/acmou.18" target="_blank">📘</a>
+                        <a href="mailto:acmou.18@gmail.com">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 acmou.18@gmail.com</p>
+                    <p>📱 +880-XXX-XXXXXX</p>
+                    <p>📍 Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACMO - Anti Child Marriage Organization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/members.js"></script>
+</body>
+</html>

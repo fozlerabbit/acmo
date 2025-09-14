@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - ACMO</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/events.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="logo">
+                <span class="logo-text">ACMO</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="events.html" class="nav-link active">Events</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>আমাদের ইভেন্টসমূহ</h1>
+                <p>বাল্যবিবাহ প্রতিরোধে আমাদের চলমান ও আসন্ন কার্যক্রম</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Navigation -->
+    <section class="events-nav">
+        <div class="container">
+            <div class="nav-buttons">
+                <button class="nav-btn active" id="upcomingBtn" onclick="showEvents('upcoming')">
+                    আসন্ন ইভেন্ট (<span id="upcomingCount">0</span>)
+                </button>
+                <button class="nav-btn" id="completedBtn" onclick="showEvents('completed')">
+                    সম্পন্ন ইভেন্ট (<span id="completedCount">0</span>)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section">
+        <div class="container">
+            <!-- Loading Spinner -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>ইভেন্টের তথ্য লোড হচ্ছে...</p>
+            </div>
+
+            <!-- Events Grid -->
+            <div class="events-grid" id="eventsGrid">
+                <!-- Events will be populated dynamically -->
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <div class="no-results-icon">📅</div>
+                <h3>কোন ইভেন্ট পাওয়া যায়নি</h3>
+                <p>এই ক্যাটেগরিতে এখনও কোন ইভেন্ট নেই।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Statistics -->
+    <section class="event-stats">
+        <div class="container">
+            <h2 class="section-title">ইভেন্ট পরিসংখ্যান</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-number" id="totalEvents">0</div>
+                    <div class="stat-label">মোট ইভেন্ট</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🚀</div>
+                    <div class="stat-number" id="upcomingEvents">0</div>
+                    <div class="stat-label">আসন্ন ইভেন্ট</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">✅</div>
+                    <div class="stat-number" id="completedEvents">0</div>
+                    <div class="stat-label">সম্পন্ন ইভেন্ট</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏙️</div>
+                    <div class="stat-number" id="eventLocations">0</div>
+                    <div class="stat-label">স্থান</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Modal -->
+    <div class="modal" id="eventModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Event details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ACMO Logo">
+                        <span>ACMO</span>
+                    </div>
+                    <p>সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/acmou.18" target="_blank">📘</a>
+                        <a href="mailto:acmou.18@gmail.com">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 acmou.18@gmail.com</p>
+                    <p>📱 +880-XXX-XXXXXX</p>
+                    <p>📍 Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACMO - Anti Child Marriage Organization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/events.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ACMO</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="logo">
+                <span class="logo-text">ACMO</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>ছবির গ্যালারি</h1>
+                <p>আমাদের কার্যক্রম ও অর্জনের মুহূর্তগুলি</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-category="all">সবগুলো</button>
+                <button class="filter-btn" data-category="awareness">সচেতনতা</button>
+                <button class="filter-btn" data-category="education">শিক্ষা</button>
+                <button class="filter-btn" data-category="training">প্রশিক্ষণ</button>
+                <button class="filter-btn" data-category="campaign">ক্যাম্পেইন</button>
+                <button class="filter-btn" data-category="advocacy">অ্যাডভোকেসি</button>
+                <button class="filter-btn" data-category="empowerment">ক্ষমতায়ন</button>
+                <button class="filter-btn" data-category="legal">আইনি সহায়তা</button>
+                <button class="filter-btn" data-category="conference">সম্মেলন</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <!-- Loading Spinner -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>ছবি লোড হচ্ছে...</p>
+            </div>
+
+            <!-- Gallery Stats -->
+            <div class="gallery-stats" id="galleryStats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalImages">0</span>
+                    <span class="stat-label">মোট ছবি</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="visibleImages">0</span>
+                    <span class="stat-label">প্রদর্শিত</span>
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Images will be populated dynamically -->
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container" id="loadMoreContainer">
+                <button class="load-more-btn" id="loadMoreBtn" onclick="loadMoreImages()">
+                    আরও দেখুন
+                </button>
+            </div>
+
+            <!-- No Results Message -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <div class="no-results-icon">🖼️</div>
+                <h3>কোন ছবি পাওয়া যায়নি</h3>
+                <p>এই ক্যাটেগরিতে এখনও কোন ছবি নেই।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-nav">
+                <button class="nav-btn prev-btn" onclick="previousImage()">‹</button>
+                <button class="nav-btn next-btn" onclick="nextImage()">›</button>
+            </div>
+            <img class="lightbox-image" id="lightboxImage" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxCategory"></p>
+                <p id="lightboxDate"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ACMO Logo">
+                        <span>ACMO</span>
+                    </div>
+                    <p>সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/acmou.18" target="_blank">📘</a>
+                        <a href="mailto:acmou.18@gmail.com">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 acmou.18@gmail.com</p>
+                    <p>📱 +880-XXX-XXXXXX</p>
+                    <p>📍 Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACMO - Anti Child Marriage Organization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>

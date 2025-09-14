@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ACMO</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="logo">
+                <span class="logo-text">ACMO</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>যোগাযোগ করুন</h1>
+                <p>আমাদের সাথে যোগাযোগ করুন এবং বাল্যবিবাহ প্রতিরোধে অংশগ্রহণ করুন</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>আমাদের কাছে বার্তা পাঠান</h2>
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <label for="name">পূর্ণ নাম *</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">ইমেইল ঠিকানা *</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">ফোন নম্বর</label>
+                            <input type="tel" id="phone" name="phone">
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="organization">প্রতিষ্ঠান/সংগঠন</label>
+                            <input type="text" id="organization" name="organization">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">বিষয় *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">বিষয় নির্বাচন করুন</option>
+                                <option value="volunteer">স্বেচ্ছাসেবী হতে চাই</option>
+                                <option value="partnership">পার্টনারশিপ/সহযোগিতা</option>
+                                <option value="event">ইভেন্ট সম্পর্কে জানতে চাই</option>
+                                <option value="complaint">অভিযোগ জানাতে চাই</option>
+                                <option value="media">মিডিয়া/সাংবাদিকতা</option>
+                                <option value="general">সাধারণ তথ্য</option>
+                                <option value="other">অন্যান্য</option>
+                            </select>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">বার্তা *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="আপনার বার্তা লিখুন..."></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                আমি <a href="#" onclick="showPrivacyPolicy()">গোপনীয়তা নীতি</a> পড়েছি এবং সম্মত আছি
+                            </label>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-text">বার্তা পাঠান</span>
+                            <span class="btn-loading" style="display: none;">পাঠানো হচ্ছে...</span>
+                        </button>
+                    </form>
+                    
+                    <!-- Success Message -->
+                    <div class="success-message" id="successMessage" style="display: none;">
+                        <div class="success-icon">✓</div>
+                        <h3>ধন্যবাদ!</h3>
+                        <p>আপনার বার্তা সফলভাবে পাঠানো হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।</p>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>যোগাযোগের তথ্য</h2>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>ইমেইল</h3>
+                            <p><a href="mailto:acmou.18@gmail.com">acmou.18@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <div class="info-content">
+                            <h3>ফোন</h3>
+                            <p>+880-XXX-XXXXXX</p>
+                            <small>সকাল ৯টা - সন্ধ্যা ৬টা</small>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>ঠিকানা</h3>
+                            <p>বাংলাদেশ</p>
+                            <small>বিস্তারিত ঠিকানার জন্য যোগাযোগ করুন</small>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📘</div>
+                        <div class="info-content">
+                            <h3>সামাজিক যোগাযোগ মাধ্যম</h3>
+                            <p><a href="https://facebook.com/acmou.18" target="_blank">Facebook</a></p>
+                            <small>আমাদের ফেসবুক পেজ ফলো করুন</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">আমাদের অবস্থান</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38703692693!2d90.25484815785052!3d23.78080732212979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1234567890123" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact Section -->
+    <section class="emergency-section">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">🚨</div>
+                <h2>জরুরি সহায়তা</h2>
+                <p>যদি আপনি বাল্যবিবাহের কোনো ঘটনা দেখেন বা তাৎক্ষণিক সহায়তার প্রয়োজন হয়, অবিলম্বে যোগাযোগ করুন:</p>
+                <div class="emergency-contacts">
+                    <div class="emergency-item">
+                        <strong>জরুরি হটলাইন:</strong> 999 (জাতীয় জরুরি সেবা)
+                    </div>
+                    <div class="emergency-item">
+                        <strong>শিশু সহায়তা:</strong> 1098
+                    </div>
+                    <div class="emergency-item">
+                        <strong>নারী ও শিশু নির্যাতন প্রতিরোধ:</strong> 10921
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">প্রায়শই জিজ্ঞাসিত প্রশ্ন</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>কীভাবে ACMO-র সদস্য হব?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>আমাদের সাথে যোগাযোগ করুন বা উপরের ফর্মে "স্বেচ্ছাসেবী হতে চাই" বিষয়টি নির্বাচন করে বার্তা পাঠান। আমরা আপনার সাথে যোগাযোগ করব।</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>আপনারা কী ধরনের সহায়তা প্রদান করেন?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>আমরা সচেতনতা বৃদ্ধি, কাউন্সেলিং, আইনি পরামর্শ, শিক্ষা সহায়তা এবং পুনর্বাসনে সহায়তা প্রদান করি।</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>আমার এলাকায় কোনো ঘটনা জানালে কী হবে?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>আমরা তাৎক্ষণিক ব্যবস্থা নেব, স্থানীয় কর্তৃপক্ষের সাথে যোগাযোগ করব এবং পরিবারকে কাউন্সেলিং প্রদান করব।</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>ACMO কি সারাদেশে কাজ করে?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>হ্যাঁ, আমরা বাংলাদেশের ১৩টি জেলায় সক্রিয়ভাবে কাজ করছি এবং আরও সম্প্রসারণের পরিকল্পনা রয়েছে।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ACMO Logo">
+                        <span>ACMO</span>
+                    </div>
+                    <p>সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/acmou.18" target="_blank">📘</a>
+                        <a href="mailto:acmou.18@gmail.com">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 acmou.18@gmail.com</p>
+                    <p>📱 +880-XXX-XXXXXX</p>
+                    <p>📍 Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACMO - Anti Child Marriage Organization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Contact form functionality
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            if (validateForm(this)) {
+                const submitBtn = document.getElementById('submitBtn');
+                const btnText = submitBtn.querySelector('.btn-text');
+                const btnLoading = submitBtn.querySelector('.btn-loading');
+                
+                // Show loading state
+                btnText.style.display = 'none';
+                btnLoading.style.display = 'inline';
+                submitBtn.disabled = true;
+                
+                // Simulate form submission (replace with actual submission)
+                setTimeout(() => {
+                    document.querySelector('.contact-form-container').style.display = 'none';
+                    document.getElementById('successMessage').style.display = 'block';
+                }, 2000);
+            }
+        });
+        
+        // FAQ toggle functionality
+        function toggleFaq(element) {
+            const faqItem = element.parentElement;
+            const answer = faqItem.querySelector('.faq-answer');
+            const icon = element.querySelector('.faq-icon');
+            
+            faqItem.classList.toggle('active');
+            
+            if (faqItem.classList.contains('active')) {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.textContent = '-';
+            } else {
+                answer.style.maxHeight = '0';
+                icon.textContent = '+';
+            }
+        }
+        
+        // Privacy policy modal (placeholder)
+        function showPrivacyPolicy() {
+            alert('গোপনীয়তা নীতি: আমরা আপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখি এবং শুধুমাত্র ACMO-র কার্যক্রমের জন্য ব্যবহার করি।');
+        }
+    </script>
+</body>
+</html>

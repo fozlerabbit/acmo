@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACMO - Anti Child Marriage Organization</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/stats.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="logo">
+                <span class="logo-text">ACMO</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="events.html" class="nav-link">Events</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <img src="assets/images/logo.png" alt="ACMO Logo" class="hero-logo">
+                <h1 class="hero-title">সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</h1>
+                <p class="hero-subtitle">ACMO (Anti Child Marriage Organization) - একটি তরুণ নেতৃত্বাধীন সামাজিক সংগঠন</p>
+                <button class="cta-button" onclick="scrollToStats()">আমাদের অর্জন দেখুন</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <h2>আমাদের বিশ্বাস</h2>
+                <p>প্রতিটি শিশুর আছে স্বপ্ন দেখার অধিকার। কিন্তু বাল্যবিবাহ সেই স্বপ্নকে চূর্ণ করে দেয়। আমরা বিশ্বাস করি, সচেতনতা এবং সক্রিয় অংশগ্রহণের মাধ্যমে সমাজে পরিবর্তন আনা সম্ভব। তরুণদের শক্তিকে কাজে লাগিয়ে আমরা গড়তে চাই এমন একটি বাংলাদেশ, যেখানে প্রতিটি শিশু বড় উঠবে নিরাপদ ও স্বাধীনভাবে।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics" id="statistics">
+        <div class="container">
+            <h2 class="section-title">আমাদের অর্জন</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">👥</div>
+                    <div class="stat-number" data-count="250">0</div>
+                    <div class="stat-label">মোট সদস্য</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-number" data-count="45">0</div>
+                    <div class="stat-label">মোট ইভেন্ট</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🛡️</div>
+                    <div class="stat-number" data-count="167">0</div>
+                    <div class="stat-label">বন্ধ করা বাল্যবিবাহ</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏘️</div>
+                    <div class="stat-number" data-count="13">0</div>
+                    <div class="stat-label">কভার করা জেলা</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section class="chart-section">
+        <div class="container">
+            <h2 class="section-title">জেলা ভিত্তিক বন্ধ করা বাল্যবিবাহের সংখ্যা</h2>
+            <div class="chart-container">
+                <canvas id="marriageChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals">
+        <div class="container">
+            <h2 class="section-title">আমাদের লক্ষ্য ও উদ্দেশ্য</h2>
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <div class="goal-number">১</div>
+                    <h3>সচেতনতা সৃষ্টি</h3>
+                    <p>বাল্যবিবাহের বিরুদ্ধে সামাজিক সচেতনতা সৃষ্টি করা।</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-number">২</div>
+                    <h3>প্রশিক্ষণ কর্মসূচি</h3>
+                    <p>শিক্ষাপ্রতিষ্ঠান, পরিবার ও স্থানীয় পর্যায়ে কার্যকর কাউন্সেলিং ও প্রশিক্ষণ কর্মসূচি পরিচালনা।</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-number">৩</div>
+                    <h3>নারীর ক্ষমতায়ন</h3>
+                    <p>তরুণদের নেতৃত্বে শিশু অধিকার রক্ষা ও নারীর ক্ষমতায়ন নিশ্চিত করা।</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-number">৪</div>
+                    <h3>গবেষণা ও প্রতিবেদন</h3>
+                    <p>গবেষণা ও তথ্যভিত্তিক প্রতিবেদন তৈরি করে নীতিনির্ধারণী পর্যায়ে প্রভাব বিস্তার।</p>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-number">৫</div>
+                    <h3>স্বেচ্ছাসেবক নেটওয়ার্ক</h3>
+                    <p>স্বেচ্ছাসেবকদের একটি দক্ষ ও নিবেদিত নেটওয়ার্ক গড়ে তোলা।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ACMO Logo">
+                        <span>ACMO</span>
+                    </div>
+                    <p>সচেতনতার দীপ্তিতে বাল্যবিবাহমুক্ত ভবিষ্যতের পথচলা</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/acmou.18" target="_blank">📘</a>
+                        <a href="mailto:acmou.18@gmail.com">📧</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="members.html">Members</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📧 acmou.18@gmail.com</p>
+                    <p>📱 +880-XXX-XXXXXX</p>
+                    <p>📍 Bangladesh</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ACMO - Anti Child Marriage Organization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/chart.js"></script>
+</body>
+</html>

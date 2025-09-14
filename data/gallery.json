@@ -1,0 +1,128 @@
+[
+    {
+        "id": "gallery-001",
+        "title": "কমিউনিটি সচেতনতা কর্মসূচি",
+        "image": "assets/images/gallery/community_awareness.jpg",
+        "category": "awareness",
+        "date": "2025-08-10"
+    },
+    {
+        "id": "gallery-002",
+        "title": "স্কুল ভিজিট প্রোগ্রাম",
+        "image": "assets/images/gallery/school_visit.jpg",
+        "category": "education",
+        "date": "2025-07-25"
+    },
+    {
+        "id": "gallery-003",
+        "title": "তরুণ নেতৃত্ব সম্মেলন",
+        "image": "assets/images/gallery/youth_conference.jpg",
+        "category": "leadership",
+        "date": "2025-06-15"
+    },
+    {
+        "id": "gallery-004",
+        "title": "অভিভাবক সভা",
+        "image": "assets/images/gallery/parent_meeting.jpg",
+        "category": "counseling",
+        "date": "2025-05-20"
+    },
+    {
+        "id": "gallery-005",
+        "title": "গ্রামীণ ক্যাম্পেইন",
+        "image": "assets/images/gallery/rural_campaign.jpg",
+        "category": "campaign",
+        "date": "2025-04-18"
+    },
+    {
+        "id": "gallery-006",
+        "title": "স্বেচ্ছাসেবক প্রশিক্ষণ",
+        "image": "assets/images/gallery/volunteer_training.jpg",
+        "category": "training",
+        "date": "2025-03-12"
+    },
+    {
+        "id": "gallery-007",
+        "title": "শিশু অধিকার র‍্যালি",
+        "image": "assets/images/gallery/child_rights_rally.jpg",
+        "category": "advocacy",
+        "date": "2025-02-28"
+    },
+    {
+        "id": "gallery-008",
+        "title": "নারী ক্ষমতায়ন সেমিনার",
+        "image": "assets/images/gallery/women_empowerment.jpg",
+        "category": "empowerment",
+        "date": "2025-01-22"
+    },
+    {
+        "id": "gallery-009",
+        "title": "আইনি সহায়তা শিবির",
+        "image": "assets/images/gallery/legal_aid_camp.jpg",
+        "category": "legal",
+        "date": "2024-12-15"
+    },
+    {
+        "id": "gallery-010",
+        "title": "দক্ষতা উন্নয়ন কর্মশালা",
+        "image": "assets/images/gallery/skill_workshop.jpg",
+        "category": "training",
+        "date": "2024-11-30"
+    },
+    {
+        "id": "gallery-011",
+        "title": "স্থানীয় সরকার সভা",
+        "image": "assets/images/gallery/local_govt_meeting.jpg",
+        "category": "advocacy",
+        "date": "2024-10-25"
+    },
+    {
+        "id": "gallery-012",
+        "title": "শিক্ষা উপকরণ বিতরণ",
+        "image": "assets/images/gallery/education_materials.jpg",
+        "category": "education",
+        "date": "2024-09-14"
+    },
+    {
+        "id": "gallery-013",
+        "title": "সাংস্কৃতিক অনুষ্ঠান",
+        "image": "assets/images/gallery/cultural_program.jpg",
+        "category": "awareness",
+        "date": "2024-08-18"
+    },
+    {
+        "id": "gallery-014",
+        "title": "মিডিয়া কর্মশালা",
+        "image": "assets/images/gallery/media_workshop.jpg",
+        "category": "advocacy",
+        "date": "2024-07-22"
+    },
+    {
+        "id": "gallery-015",
+        "title": "জেলা সমন্বয় সভা",
+        "image": "assets/images/gallery/district_coordination.jpg",
+        "category": "coordination",
+        "date": "2024-06-10"
+    },
+    {
+        "id": "gallery-016",
+        "title": "বার্ষিক সম্মেলন",
+        "image": "assets/images/gallery/annual_conference.jpg",
+        "category": "conference",
+        "date": "2024-05-05"
+    },
+    {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/health_education.jpg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    {
+        "id": "gallery-018",
+        "title": "পুরস্কার বিতরণী অনুষ্ঠান",
+        "image": "assets/images/gallery/award_ceremony.jpg",
+        "category": "ceremony",
+        "date": "2024-03-20"
+    }
+]
