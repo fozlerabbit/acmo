@@ -61,8 +61,7 @@ function displayMembers() {
     
     const startIndex = (currentPage - 1) * membersPerPage;
     const endIndex = startIndex + membersPerPage;
-    // const currentMembers = filteredMembers.slice(startIndex, endIndex);
-	const currentMembers = 450;
+    const currentMembers = filteredMembers.slice(startIndex, endIndex);
     
     membersGrid.innerHTML = '';
     
@@ -338,3 +337,4 @@ function getMembersStats() {
     return stats;
 
 }
+
