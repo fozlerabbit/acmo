@@ -72,58 +72,162 @@
     {
         "id": "gallery-011",
         "title": "স্থানীয় সরকার সভা",
-        "image": "assets/images/gallery/local_govt_meeting.jpg",
+        "image": "assets/images/gallery/1 (11).jpeg",
         "category": "advocacy",
         "date": "2024-10-25"
     },
     {
         "id": "gallery-012",
         "title": "শিক্ষা উপকরণ বিতরণ",
-        "image": "assets/images/gallery/education_materials.jpg",
+        "image": "assets/images/gallery/1 (12).jpeg",
         "category": "education",
         "date": "2024-09-14"
     },
     {
         "id": "gallery-013",
         "title": "সাংস্কৃতিক অনুষ্ঠান",
-        "image": "assets/images/gallery/cultural_program.jpg",
+        "image": "assets/images/gallery/1 (13).jpeg",
         "category": "awareness",
         "date": "2024-08-18"
     },
     {
         "id": "gallery-014",
         "title": "মিডিয়া কর্মশালা",
-        "image": "assets/images/gallery/media_workshop.jpg",
+        "image": "assets/images/gallery/1 (14).jpeg",
         "category": "advocacy",
         "date": "2024-07-22"
     },
     {
         "id": "gallery-015",
         "title": "জেলা সমন্বয় সভা",
-        "image": "assets/images/gallery/district_coordination.jpg",
+        "image": "assets/images/gallery/1 (15).jpeg",
         "category": "coordination",
         "date": "2024-06-10"
     },
     {
         "id": "gallery-016",
         "title": "বার্ষিক সম্মেলন",
-        "image": "assets/images/gallery/annual_conference.jpg",
+        "image": "assets/images/gallery/1 (16).jpeg",
         "category": "conference",
         "date": "2024-05-05"
     },
     {
         "id": "gallery-017",
         "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
-        "image": "assets/images/gallery/health_education.jpg",
+        "image": "assets/images/gallery/1 (17).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (18).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (19).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (20).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (21).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (22).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (23).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (24).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (25).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (26).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (27).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (28).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (29).jpeg",
+        "category": "education",
+        "date": "2024-04-12"
+    },
+    
+        {
+        "id": "gallery-017",
+        "title": "স্বাস্থ্য শিক্ষা কর্মসূচি",
+        "image": "assets/images/gallery/1 (30).jpeg",
         "category": "education",
         "date": "2024-04-12"
     },
     {
         "id": "gallery-018",
         "title": "পুরস্কার বিতরণী অনুষ্ঠান",
-        "image": "assets/images/gallery/award_ceremony.jpg",
+        "image": "assets/images/gallery/1 (31).jpeg",
         "category": "ceremony",
         "date": "2024-03-20"
     }
 
 ]
+
