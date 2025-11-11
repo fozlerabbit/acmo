@@ -1,23 +1,5 @@
 [
   {
-    "id": "ACMO-2025-058",
-    "name": "Sudipto Debnath",
-    "division": "Khulna",
-    "address": "Satkhira",
-    "joined_date": "1 January 2025",
-    "email": "hello23sudipto@gmail.com",
-    "photo": "assets/images/members/logo.jpg"
-  },
-  {
-    "id": "ACMO-2025-066",
-    "name": "Parmita Chowdhury Mou",
-    "division": "N/A",
-    "address": "N/A",
-    "joined_date": "1 January 2025",
-    "email": "pcmparmita07@gmail.com",
-    "photo": "assets/images/members/logo.jpg"
-  },
-  {
     "id": "N/A",
     "name": "Shaswato Biswas",
     "division": "Khulna",
@@ -187,6 +169,24 @@
     "joined_date": "February 2025",
     "email": "ebnulhossen44@gmail.com",
     "photo": "assets/images/members/logo.jpg"
+  }, 
+  {
+    "id": "ACMO-2025-058",
+    "name": "Sudipto Debnath",
+    "division": "Khulna",
+    "address": "Satkhira",
+    "joined_date": "1 January 2025",
+    "email": "hello23sudipto@gmail.com",
+    "photo": "assets/images/members/logo.jpg"
+  },
+    {
+    "id": "ACMO-2025-066",
+    "name": "Parmita Chowdhury Mou",
+    "division": "N/A",
+    "address": "N/A",
+    "joined_date": "1 January 2025",
+    "email": "pcmparmita07@gmail.com",
+    "photo": "assets/images/members/logo.jpg"
   },
   {
     "id": "N/A",
@@ -207,3 +207,4 @@
     "photo": "assets/images/members/logo.jpg"
   }
 ]
+
