@@ -87,7 +87,7 @@ function createMemberCard(member, index) {
         <div class="member-info">
             <div class="info-item">
                 <span class="info-icon">📍</span>
-                <span>যোগদান: ${member.position}</span>
+                <span>পদ: ${member.position}</span>
             </div>
             <div class="info-item">
                 <span class="info-icon">📍</span>
@@ -337,5 +337,6 @@ function getMembersStats() {
     return stats;
 
 }
+
 
 
