@@ -87,11 +87,11 @@ function createMemberCard(member, index) {
         <div class="member-info">
             <div class="info-item">
                 <span class="info-icon">📍</span>
-                <span>${member.division}, ${member.address}</span>
+                <span>যোগদান: ${member.position}</span>
             </div>
             <div class="info-item">
-                <span class="info-icon">📅</span>
-                <span>যোগদান: ${formattedDate}</span>
+                <span class="info-icon">📍</span>
+                <span>${member.division}, ${member.address}</span>
             </div>
             <div class="info-item">
                 <span class="info-icon">📧</span>
@@ -337,4 +337,5 @@ function getMembersStats() {
     return stats;
 
 }
+
 
