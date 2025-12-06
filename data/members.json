@@ -6,7 +6,8 @@
     "address": "Moulvibazar",
     "division": "Sylhet",
     "position": "Permanent Councillor, CEO & Founder",
-    "photo": "assets/images/members/1.jpg"
+    "photo": "assets/images/members/1.jpg",
+    
   },
   {
     "id": "2",
@@ -100,7 +101,7 @@
   },
   {
     "id": "12",
-    "name": "Md Muhtamim Fuad Shishir",
+    "name": "Md. Muhtamim Fuad Shishir",
     "email": "mdmuhtamimfuadshishir@gmail.com",
     "address": "Mymensingh",
     "division": "Mymensingh",
@@ -138,8 +139,8 @@
     "id": "16",
     "name": "Mahmuda Akter",
     "email": "mayamahmuda628@gmail.com",
-    "address": "Mymensingh",
-    "division": "Mymensingh",
+    "address": "Dhaka",
+    "division": "Dhaka",
     "position": "Asst. Divisional Director",
     "photo": "assets/images/members/16.jpg"
   },
@@ -201,7 +202,7 @@
     "id": "23",
     "name": "Mahima Fardushe Miha",
     "email": "N/A",
-    "address": "Sylhet",
+    "address": "Moulvibazar",
     "division": "Sylhet",
     "position": "Divitional Director",
     "photo": "assets/images/members/23.jpeg"
@@ -214,8 +215,18 @@
     "division": "Barishal",
     "position": "Assistant Divisional Director",
     "photo": "assets/images/members/24.jpeg"
+  },
+    {
+    "id": "25",
+    "name": "Poroma Akter",
+    "email": "Poromaakter2856@gmail.com",
+    "address": "Mymensingh",
+    "division": "Mymensingh",
+    "position": "Reserch & development director",
+    "photo": "assets/images/members/25.JPG"
   }
 ]
+
 
 
 
