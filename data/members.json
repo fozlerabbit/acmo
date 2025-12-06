@@ -50,7 +50,7 @@
     "email": "samsularefin328@gmail.com",
     "address": "Satkhira",
     "division": "Khulna",
-    "position": "Reserch & Development Director",
+    "position": "Research & Development Director",
     "photo": "assets/images/members/6.jpg"
   },
   {
@@ -84,8 +84,8 @@
     "id": "10",
     "name": "Parmita Chowdhury Mou",
     "email": "pcmparmita07@gmail.com",
-    "address": "Dhaka",
-    "division": "Dhaka",
+    "address": "Moulvibazar",
+    "division": "Sylhet",
     "position": "Asst. Divisional Director",
     "photo": "assets/images/members/10.jpg"
   },
@@ -104,7 +104,7 @@
     "email": "mdmuhtamimfuadshishir@gmail.com",
     "address": "Mymensingh",
     "division": "Mymensingh",
-    "position": "Divisional Director, Mymensingh",
+    "position": "Divisional Director",
     "photo": "assets/images/members/12.jpg"
   },
   {
@@ -216,5 +216,6 @@
     "photo": "assets/images/members/24.jpeg"
   }
 ]
+
 
 
