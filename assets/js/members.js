@@ -83,7 +83,7 @@ function createMemberCard(member, index) {
     card.innerHTML = `
         <img src="${member.photo}" alt="${member.name}" class="member-photo" onerror="handleImageError(this)">
         <h3 class="member-name">${member.name}</h3>
-        <span class="member-id">${member.id}</span>
+        <span class="member-id">ACMO-${member.id}</span>
         <div class="member-info">
             <div class="info-item">
                 <span class="info-icon">📍</span>
@@ -337,6 +337,7 @@ function getMembersStats() {
     return stats;
 
 }
+
 
 
 
