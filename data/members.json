@@ -18,13 +18,13 @@
     "photo": "assets/images/members/2.jpg"
   },
   {
-    "id": "5",
+    "id": "3",
     "name": "Fozle Rabbi",
     "position": "Permanent Councillor & Head of IT",
     "division": "Mymensingh",
     "address": "Mymensingh",
     "email": "infiniterabbiex@gmail.com",
-    "photo": "assets/images/members/5.jpg"
+    "photo": "assets/images/members/3.jpg"
   },
   {
     "id": "4",
@@ -36,13 +36,13 @@
     "photo": "assets/images/members/4.jpg"
   },
   {
-    "id": "3",
+    "id": "5",
     "name": "Sofiur Rahman",
     "position": "Permanent Councillor",
     "division": "Sylhet",
     "address": "Moulvibazar",
     "email": "shofiurrahman924@gamil.com",
-    "photo": "assets/images/members/3.jpg"
+    "photo": "assets/images/members/5.jpg"
   },
   {
     "id": "6",
@@ -234,3 +234,4 @@
     "photo": "assets/images/members/26.jpg"
   }
 ]
+
