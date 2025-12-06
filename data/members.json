@@ -96,7 +96,7 @@
     "address": "Satkhira",
     "division": "Khulna",
     "position": "IT Media Secretary",
-    "photo": "assets/images/members/11.jpg"
+    "photo": "assets/images/members/11.jpeg"
   },
   {
     "id": "12",
@@ -123,7 +123,7 @@
     "address": "Dhaka",
     "division": "Dhaka",
     "position": "Divisional Director",
-    "photo": "assets/images/members/14.jpg"
+    "photo": "assets/images/members/14.jpeg"
   },
   {
     "id": "15",
@@ -177,7 +177,7 @@
     "address": "Pirojpur",
     "division": "Barisal",
     "position": "Divisional Director",
-    "photo": "assets/images/members/20.jpg"
+    "photo": "assets/images/members/20.jpeg"
   },
   {
     "id": "21",
@@ -195,7 +195,7 @@
     "address": "Nilphamari",
     "division": "Rangpur",
     "position": "Asst. Divisional Director",
-    "photo": "assets/images/members/22.jpg"
+    "photo": "assets/images/members/22.jpeg"
   },
   {
     "id": "23",
@@ -213,6 +213,7 @@
     "address": "Bhola",
     "division": "Barishal",
     "position": "Assistant Divisional Director",
-    "photo": "assets/images/members/24.jpg"
+    "photo": "assets/images/members/24.jpeg"
   }
 ]
+
