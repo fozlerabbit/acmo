@@ -5,7 +5,7 @@
     "email": "redwantahmid94@gmail.com",
     "address": "Moulvibazar",
     "division": "Sylhet",
-    "position": "Permanent Councillor, CEO and Founder, Sylhet",
+    "position": "Permanent Councillor, CEO and Founder",
     "photo": "assets/images/members/1.jpg"
   },
   {
@@ -14,7 +14,7 @@
     "email": "abdullahalshihab847@gmail.com",
     "address": "Jamalpur",
     "division": "Mymensingh",
-    "position": "Permanent Councillor and MD, Mymensingh",
+    "position": "Permanent Councillor and MD",
     "photo": "assets/images/members/2.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "email": "infiniterabbiex@gmail.com",
     "address": "Mymensingh",
     "division": "Mymensingh",
-    "position": "Permanent Councillor and Head of IT, Mymensingh",
+    "position": "Permanent Councillor and Head of IT",
     "photo": "assets/images/members/3.jpg"
   },
   {
@@ -32,7 +32,7 @@
     "email": "almahin9890@gmail.com",
     "address": "Moulvibazar",
     "division": "Sylhet",
-    "position": "Permanent Councillor, Sylhet",
+    "position": "Permanent Councillor",
     "photo": "assets/images/members/4.jpg"
   },
   {
@@ -41,7 +41,7 @@
     "email": "shofiurrahman924@gamil.com",
     "address": "Moulvibazar",
     "division": "Sylhet",
-    "position": "Permanent Councillor, Sylhet",
+    "position": "Permanent Councillor",
     "photo": "assets/images/members/5.jpg"
   },
   {
@@ -50,7 +50,7 @@
     "email": "samsularefin328@gmail.com",
     "address": "Satkhira",
     "division": "Khulna",
-    "position": "Research and Development Director, Khulna",
+    "position": "Research and Development Director",
     "photo": "assets/images/members/6.jpg"
   },
   {
@@ -59,7 +59,7 @@
     "email": "tangem.scout@gmail.com",
     "address": "Mymensingh",
     "division": "Mymensingh",
-    "position": "Office Secretary, Mymensingh",
+    "position": "Office Secretary",
     "photo": "assets/images/members/7.jpg"
   },
   {
@@ -68,7 +68,7 @@
     "email": "mdnurjannat2008@gmail.com",
     "address": "Jamalpur",
     "division": "Mymensingh",
-    "position": "Programme and Operation Director, Mymensingh",
+    "position": "Programme and Operation Director",
     "photo": "assets/images/members/8.jpg"
   },
   {
@@ -225,3 +225,4 @@
     "photo": "assets/images/members/25.JPG"
   }
 ]
+
