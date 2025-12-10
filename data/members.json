@@ -81,15 +81,6 @@
     "photo": "assets/images/members/9.jpg"
   },
   {
-    "id": "10",
-    "name": "Parmita Chowdhury Mou",
-    "email": "pcmparmita07@gmail.com",
-    "address": "Moulvibazar",
-    "division": "Sylhet",
-    "position": "Assistant Divisional Director, Sylhet",
-    "photo": "assets/images/members/10.jpg"
-  },
-  {
     "id": "11",
     "name": "Shaswato Biswas",
     "email": "sbparthib10112006@gmail.com",
@@ -126,20 +117,11 @@
     "photo": "assets/images/members/14.jpeg"
   },
   {
-    "id": "15",
-    "name": "Md. Mehedi Hasan Bulbul",
-    "email": "mehedihasanbulbul001@gmail.com",
-    "address": "Dhaka",
-    "division": "Dhaka",
-    "position": "Assistant Divisional Director, Dhaka",
-    "photo": "assets/images/members/15.jpg"
-  },
-  {
     "id": "16",
     "name": "Mahmuda Akter",
     "email": "mayamahmuda628@gmail.com",
-    "address": "Dhaka",
-    "division": "Dhaka",
+    "address": "Mymensingh",
+    "division": "Mymensingh",
     "position": "Assistant Divisional Director, Dhaka",
     "photo": "assets/images/members/16.jpg"
   },
@@ -225,4 +207,5 @@
     "photo": "assets/images/members/25.JPG"
   }
 ]
+
 
